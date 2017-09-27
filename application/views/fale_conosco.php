@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html lang ="pt - br">
+    <head>
+        <meta charset=" utf -8">
+        <title>Fale conosco</title>
+    </head>
+ <body>
+    <?php
+                echo br();
+                $atributos = array('name'=>'formulario_contato',
+                    'id'=>'formulario_contato');
+            echo form_open(base_url('home/ enviar_mensagem'),$atributos).
+                 form_label("Nome :" ," txt_nome").br().
+                 form_input('txt_nome').br().
+                 form_label("E-mail :","txt_email").br().
+                 form_input('txt_email').br().
+                 form_label(" Mensagem: "," txt_mensagem").br().
+                 form_textarea('txt_mensagem').br().
+                 form_submit("btn_enviar"," Enviar Mensagem").
+                 form_close () ;
+            ?>
+ </body>
+ </html>
