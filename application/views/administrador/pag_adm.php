@@ -10,10 +10,10 @@
             <?php echo anchor(base_url("cadastro/categorias") ,"Cadastro de categorias", array("class"=>"btn btn-mediun btn-primary")); ?>
                 </div>
             <div class="col-md-4">
-            <?php echo anchor(base_url("") ,"Cadastro de produtos", array("class"=>"btn btn-mediun btn-primary")); ?>
+            <?php echo anchor(base_url("produtos/listarProdutos/0") ,"Cadastro de produtos", array("class"=>"btn btn-mediun btn-primary")); ?>
             </div>
             <div class="col-md-4">
-            <?php echo anchor(base_url("") ,"Tabela de fretes", array("class"=>"btn btn-mediun btn-primary")); ?>
+            <?php echo anchor(base_url("frete/listarFretes") ,"Tabela de fretes", array("class"=>"btn btn-mediun btn-primary")); ?>
             </div>
     </div>
 </div>

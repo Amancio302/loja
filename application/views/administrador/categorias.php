@@ -9,7 +9,7 @@
                     echo'  <table>
                                 <tr>
                                     <th id="titulo">Titulo</th>
-                                    <th id="descricao">Descrição</th>
+                                    <th id="descricoes">Descrição</th>
                                     <th id="operacoes">Operações</th>
                                 </tr>';
                     foreach($categorias as $data){

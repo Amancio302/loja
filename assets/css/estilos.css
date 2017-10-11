@@ -55,6 +55,22 @@ tr:nth-child(even) {
     width: 30%;
 }
 
-#descricao{
+#descricoes{
     width: 50%;
+}
+
+#codigos{
+    width: 10%;
+}
+
+#titulos{
+    width: 10%;
+}
+
+#preco{
+    width: 10%;
+}
+
+#txt_label{
+    text-align: right;
 }
